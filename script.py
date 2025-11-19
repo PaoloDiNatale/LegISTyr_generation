@@ -39,21 +39,21 @@ def parse_arguments():
     parser.add_argument(
         '--max-tokens',
         type=int,
-        default=1000,
+        default=1200,
         help='Maximum tokens for completion (default: 1000)'
     )
     
     parser.add_argument(
         '--temperature',
         type=float,
-        default=0.1,
-        help='Temperature for generation (default: 0.1)'
+        default=0.2,
+        help='Temperature for generation (default: 0.2)'
     )
     
     parser.add_argument(
         '--max-concurrent',
         type=int,
-        default=15,
+        default=10,
         help='Maximum concurrent requests (default: 15)'
     )
     
@@ -67,15 +67,15 @@ async def main():
     
     # Setup paths
     data_dir = Path("data")
-    output_csv_dir = Path("output_csv")
-    output_txt_dir = Path("output_txt")
+    output_excel_dir =  Path(f"output_excel/{args.source}")
+    output_txt_dir = Path(f"output_txt/{args.source}")
     
     # Create output directories if they don't exist
-    output_csv_dir.mkdir(exist_ok=True)
+    output_excel_dir.mkdir(exist_ok=True)
     output_txt_dir.mkdir(exist_ok=True)
     
     # Construct source file path
-    source_file = data_dir / f"LegISTyr__{args.source}.csv" #CHECK THIS ONE AGAIN!
+    source_file = data_dir / f"LegISTyr__{args.source}.csv"
     
     if not source_file.exists():
         print(f"Error: Source file not found: {source_file}")
@@ -89,6 +89,7 @@ async def main():
     # Create prompts using the appropriate template
     print(f"Creating prompts using '{args.source}' template...")
     prompts = create_prompts(dataset, args.source)
+    #prompts = prompts[:50]  # Limit to first 50 prompts for testing
     print(f"Created {len(prompts)} prompts")
     
     # Run parallel requests
@@ -116,14 +117,14 @@ async def main():
     model_name = args.model.replace("/", "_")
     
     # Save outputs
-    csv_output_path = output_csv_dir / f"{model_name}.csv"
+    excel_output_path = output_excel_dir / f"{model_name}.xlsx"
     txt_output_path = output_txt_dir / f"{model_name}.txt"
     
-    print(f"\nSaving CSV to: {csv_output_path}")
-    save_to_excel(model_output, str(csv_output_path))
+    print(f"\nSaving excel to: {excel_output_path}")
+    save_to_excel(model_output, str(excel_output_path))
     
     print(f"Saving TXT to: {txt_output_path}")
-    save_to_txt(str(csv_output_path), str(txt_output_path))
+    save_to_txt(str(excel_output_path), str(txt_output_path))
     
     print("\n✓ Process completed successfully!")
 

@@ -19,6 +19,8 @@ def get_prompt_template(source_name):
         'simple_terms': create_simple_prompt,
         'abbreviations': create_abbreviation_prompt,
         'gender': create_gender_prompt,
+        'baseline': create_baseline_prompt, # no terminology given
+        'German': create_German_prompt, # major German variety tested
         # Add more templates as needed
     }
     
@@ -45,17 +47,22 @@ def create_homonyms_prompt(source_sentence, term_it, term_de):
         "role": "system",
         "content": (
             f"You are a German translator based in South-Tyrol and this is a translation task. "
+            f"Reasoning effort: low. "
+        )
+    },
+          {
+        "role": "developer",
+        "content": (
             f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
             f"South-Tyrolean German is a standard variety of German. "
-            f"There are terminological constraints you must adhere to: {term_it} can be translated with "
-            f"only one of these terms: {term_de}. "
+            f"There are terminological constraints you must adhere to: the term {term_it} can be translated with only one of these terms: {term_de}. "
             f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
             f"This is the text to be translated into German:"
         )
     },
     {
         "role": "user",
-        "content": f"<{source_sentence}>. German: "
+        "content": f"<{source_sentence}>"
     }]
     
     return prompt
@@ -77,6 +84,12 @@ def create_simple_prompt(source_sentence, term_it, term_de):
         "role": "system",
         "content": (
             f"You are a German translator based in South-Tyrol and this is a translation task. "
+            f"Reasoning effort: low. "
+        )
+    },
+          {
+        "role": "developer",
+        "content": (
             f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
             f"South-Tyrolean German is a standard variety of German. "
             f"There are terminological constraints you must adhere to: {term_it} must be translated with {term_de}. "
@@ -108,9 +121,15 @@ def create_abbreviation_prompt(source_sentence, term_it, term_de):
         "role": "system",
         "content": (
             f"You are a German translator based in South-Tyrol and this is a translation task. "
+            f"Reasoning effort: low. "
+        )
+    },
+          {
+        "role": "developer",
+        "content": (
             f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
             f"South-Tyrolean German is a standard variety of German. "
-            f"There are terminological constraints you must adhere to: The abbreviation {term_it} must be translated with {term_de}. "
+            f"There are terminological constraints you must adhere to: the abbreviation {term_it} must be translated with {term_de}. "
             f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
             f"This is the text to be translated into German:"
         )
@@ -124,7 +143,7 @@ def create_abbreviation_prompt(source_sentence, term_it, term_de):
 
 
 # Template for adding new prompt types:
-def create_gender_prompt(source_sentence, term_it, term_de):
+def create_gender_prompt(source_sentence):
     """
     Create prompt for custom dataset
     
@@ -138,11 +157,84 @@ def create_gender_prompt(source_sentence, term_it, term_de):
     """
     prompt = [{
         "role": "system",
-        "content": f"Your custom system prompt here. Term: {term_it}, Options: {term_de}"
+        "content": (
+            f"You are a German translator based in South-Tyrol and this is a translation task. "
+            f"Reasoning effort: low. "
+        )
+    },
+    {
+        "role": "developer",
+        "content": (
+            f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
+            f"South-Tyrolean German is a standard variety of German. "
+            f"Important: You must produce a gender-neutral translation, keeping it as inclusive as the source text! "
+            f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "            
+            f"This is the text to be translated into German:"
+        )
     },
     {
         "role": "user",
-        "content": f"Your custom user prompt: {source_sentence}"
+        "content": f"<{source_sentence}>. German: "
+    }]
+    
+    return prompt
+
+
+def create_baseline_prompt(source_sentence):
+    """
+    Create prompt for homonyms dataset
+    
+    Args:
+        source_sentence (str): Italian sentence to translate
+        term_it (str): Italian term
+        term_de (str): German translation options
+        
+    Returns:
+        list: Prompt messages
+    """
+    prompt = [{
+        "role": "system",
+        "content": (
+            f"You are a German translator based in South-Tyrol and this is a translation task. "
+            f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
+            f"South-Tyrolean German is a standard variety of German. "
+            f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
+            f"This is the text to be translated into German:"
+        )
+    },
+    {
+        "role": "user",
+        "content": f"<{source_sentence}>. German: "
+    }]
+    
+    return prompt
+
+def create_German_prompt(source_sentence, term_it, term_de):
+    """
+    Create prompt for homonyms dataset
+    
+    Args:
+        source_sentence (str): Italian sentence to translate
+        term_it (str): Italian term
+        term_de (str): German translation options
+        
+    Returns:
+        list: Prompt messages
+    """
+    prompt = [{
+        "role": "system",
+        "content": (
+            f"You are a German translator based in South-Tyrol and this is a translation task. "
+            f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
+            f"South-Tyrolean German is a standard variety of German. "
+            f"There are terminological constraints you must adhere to: {term_it} must be translated with {term_de}. "
+            f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
+            f"This is the text to be translated into German:"
+        )
+    },
+    {
+        "role": "user",
+        "content": f"<{source_sentence}>. German: "
     }]
     
     return prompt

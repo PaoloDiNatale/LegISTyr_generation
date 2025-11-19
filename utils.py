@@ -16,7 +16,7 @@ API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 def load_dataset(file_path):
     """
-    Load dataset from CSV file
+    Load dataset from excel file
     
     Args:
         file_path (str): Path to the CSV file
@@ -24,7 +24,7 @@ def load_dataset(file_path):
     Returns:
         pd.DataFrame: Loaded dataset
     """
-    dataset = pd.read_csv(file_path, sep=';', encoding="utf-8")
+    dataset = pd.read_csv(file_path, sep=";", encoding="utf-8")
     dataset.columns = dataset.columns.str.strip()  # Fix column name issues
     return dataset
 
@@ -41,11 +41,16 @@ def create_prompts(dataset, source_name):
         list: List of prompt dictionaries
     """
     source_sentences = dataset["IT EXAMPLE"].tolist()
-    terms_it = dataset["IT TERM"].tolist()
+    
+    if source_name != "gender":
+        terms_it = dataset["IT TERM"].tolist()
+    else:
+        pass
 
     if source_name == "homonyms":
         terms_de = dataset["OPTIONS"].tolist()
-    elif source_name == "simple_terms" or source_name == "abbreviations":
+        print(f"Sample terms_de: {terms_de[:3]}")
+    elif source_name == "simple_terms" or source_name == "abbreviations" or source_name == "German":
         terms_de = dataset["TARGET HYPOTHESIS (DE SOUTH TYROL)"].tolist()
     else:
         pass
@@ -55,15 +60,22 @@ def create_prompts(dataset, source_name):
     
     prompts = []
     
-    for source_sentence, term_it, term_de in zip(source_sentences, terms_it, terms_de):
-        prompt = prompt_template(source_sentence, term_it, term_de)
-        prompts.append(prompt)
+    if source_name == "gender":
+        for source_sentence in source_sentences:
+            prompt = prompt_template(source_sentence)
+            prompts.append(prompt)
+            
+        return prompts      
+    else:
+        for source_sentence, term_it, term_de in zip(source_sentences, terms_it, terms_de):
+            prompt = prompt_template(source_sentence, term_it, term_de)
+            prompts.append(prompt)
     
     return prompts
 
 
-async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_tokens=1000, 
-                          temperature=0.1, max_retries=3):
+async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_tokens=1200, 
+                          temperature=0.2, max_retries=5):
     """
     Fetch a single completion with retry logic
     
@@ -87,7 +99,7 @@ async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_
 
         for attempt in range(max_retries):
             try:
-                resp = await client.post(API_URL, json=payload, headers=headers, timeout=30.0)
+                resp = await client.post(API_URL, json=payload, headers=headers, timeout=50.0)
                 resp.raise_for_status()
                 pbar.update(1)
                 return resp
@@ -102,8 +114,8 @@ async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_
                     return None
 
 
-async def run_parallel_requests(prompts, model, api_key, max_tokens=1000, 
-                                temperature=0.1, max_concurrent=15):
+async def run_parallel_requests(prompts, model, api_key, max_tokens=1200, 
+                                temperature=0.2, max_concurrent=10):
     """
     Run parallel API requests
     
@@ -201,21 +213,21 @@ def save_to_excel(model_output, output_path):
     
     Args:
         model_output (list): List of output dictionaries
-        output_path (str): Path to save CSV file
+        output_path (str): Path to save excel file
     """
     df = pd.DataFrame(model_output)
-    df.to_csv(output_path, index=False, encoding="utf-8")
+    df.to_excel(output_path, index=False)
 
 
-def save_to_txt(csv_path, txt_path):
+def save_to_txt(excel_path, txt_path):
     """
     Save assistant column from CSV to TXT file
     
     Args:
-        csv_path (str): Path to CSV file
+        excel_path (str): Path to CSV file
         txt_path (str): Path to save TXT file
     """
-    df = pd.read_csv(csv_path)
+    df = pd.read_excel(excel_path)
     
     with open(txt_path, "w", encoding="utf-8") as f:
         for value in df["assistant"]:

@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# LegISTyr_generation
-=======
 # Translation API Project
 
 Restructured project for parallel translation API calls using OpenRouter.
@@ -175,4 +172,3 @@ templates = {
 - Output file names automatically replace "/" in model names with "_" (e.g., "openai/gpt-4" becomes "openai_gpt-4")
 - Failed requests are logged and marked with None values
 - The script creates output directories automatically if they don't exist
->>>>>>> 9c6ba1a (first commit)
