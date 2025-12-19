@@ -74,8 +74,8 @@ def create_prompts(dataset, source_name):
     return prompts
 
 
-async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_tokens=1200, 
-                          temperature=0.2, max_retries=5):
+async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_tokens, 
+                          temperature, max_retries=5):
     """
     Fetch a single completion with retry logic
     
@@ -114,8 +114,8 @@ async def fetch_completion(prompt, model, client, semaphore, pbar, api_key, max_
                     return None
 
 
-async def run_parallel_requests(prompts, model, api_key, max_tokens=1200, 
-                                temperature=0.2, max_concurrent=10):
+async def run_parallel_requests(prompts, model, api_key, max_tokens,
+                                temperature, max_concurrent=10):
     """
     Run parallel API requests
     

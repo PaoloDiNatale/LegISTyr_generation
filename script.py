@@ -89,7 +89,7 @@ async def main():
     # Create prompts using the appropriate template
     print(f"Creating prompts using '{args.source}' template...")
     prompts = create_prompts(dataset, args.source)
-    #prompts = prompts[:50]  # Limit to first 50 prompts for testing
+    #prompts = prompts[:10]  # Limit to first 50 prompts for testing
     print(f"Created {len(prompts)} prompts")
     
     # Run parallel requests
