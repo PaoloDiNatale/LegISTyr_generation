@@ -39,7 +39,7 @@ RESPONSE_FORMAT = {
                             },
                             "gender": {
                                 "type": "string",
-                                "enum": ["M", "F", "N"],
+                                "enum": ['M/F', 'M&F', 'N'],
                                 "description": "Gender expressed by the phrase"
                             }
                         }
@@ -47,7 +47,7 @@ RESPONSE_FORMAT = {
                 },
                 "label": {
                     "type": "string",
-                    "enum": ["NEUTRAL", "GENDERED"],
+                    "enum": ["SINGLE-GENDERED", "BINARY-GENDERED", "NEUTRAL"],
                     "description": "Indicates whether the sentence is gender-neutral or gendered."
                 }
             },
@@ -59,41 +59,193 @@ RESPONSE_FORMAT = {
 
 
 # System prompt
-SYSTEM_PROMPT = """You are a language expert specializing in evaluating gender neutrality in German texts. Your task is to extract target German phrases that refer to human beings and determine whether each phrase is masculine, feminine, or neutral. Based on the phrases, assess whether the sentence is gendered or neutral.
+SYSTEM_PROMPT = """You are a language expert specializing in evaluating gender neutrality in German texts. Your task is to extract target German phrases that refer to human beings and determine whether each phrase is single-gendered (masculine or feminine only), binary-gendered (covers both m/f), or gender-neutral (covers binary as well as non-binary gender). Based on the phrases, assess whether the sentence is gendered or neutral.
 
 Guidelines:
-1. Identify relevant phrases: carefully analyze the German sentence and focus on all phrases that refer to human beings or groups of human beings (e.g., "eine ausgezeichnete Rednerin", "die Bürgerschaft", "Sie").
+1. Identify relevant phrases: carefully analyze the German sentence and focus on all phrases that refer to human beings or groups of human beings (e.g., "eine ausgezeichnete Mitarbeiterin, "die Arbeitnehmer, "Sie“, „Patient:in“, „Der/die Begünstigte“ ).
 
-2. Evaluate gender information: consider only the social gender conveyed by the phrases, not grammatical gender, and assign a label to each phrase [M/F/N]. For example:
+2. Evaluate gender information: consider only the social gender conveyed by the phrases, not grammatical gender, and assign a label to each phrase ('M/F'; 'M&F'; 'N'). For example:
+
+Single-gendered (one gender 'M/F'):
 * Phrases like "Ein Redner", "Der Student", "Der Bürger", and "alle Kollegen" are masculine [M];
-* Phrases like "Eine Rednerin", "Die Studentin", "Die Bürgerinnen", and "alle Kolleginnen" are feminine [F];
-* Phrases like "Eine referierende Person", "Die Studierenden", "Die Bürgerschaft", and "alle Kollegiumsmitgliedern" do not express social gender, therefore they must be considered neutral [N].
+* Phrases like "Eine Rednerin", "Die Studentin", "Die Bürgerinnen", and "alle Kolleginnen" are feminine [F]
+
+Binary-gendered (both genders 'M&F'):
+* Phrases like "Bürgerinnen und Bürger“, „der/die Arbeitnehmer/in“, „die BürgerInnen“, „die Bürgerbeauftragte/der Bürgerbeauftragte“, „Absolventinnen/Absolventen“, „Absolventen/-innen“, „Absolvent(inn)en“ call both social genders, masculine and feminine [M&F]
+
+Gender-neutral (all genders 'N': masculine, feminine and non-binary): 
+* Phrases like "Der:die Arbeitnehmer:in", „die*der Verwaltungs- oder Buchhaltungsfunktionär*in", „Arbeitnehmx“ use gender-inclusive characters or neomorphems to neutralize gender by changing the morphology.
+* Phrases like "Eine freiberufliche tätige Person", "Die Beschäftigten“, "Die Bürgerschaft", and "alle Kollegiumsmitglieder" do not express social gender because they are either neutral because of their grammatical gender or semantics, therefore they must be considered neutral [N].
 
 3. Assign a sentence-level label:
+* If one or more phrases convey a specific either masculine or feminine gender, label the sentence as "SINGLE-GENDERED".
+* If all phrases convey both masculine or feminine gender, label the sentence as "BINARY-GENDERED".
 * If all references to human beings are gender-neutral, label the sentence as "NEUTRAL".
-* If one or more phrases convey a specific masculine or feminine gender, label the sentence as "GENDERED"."""
+"""
 
 # Few-shot example
-FEW_SHOT_EXAMPLE = """Example:
-Italian sentence: "Frau Präsidentin, ich möchte das unterstreichen, was meine Kollegin Hernández Mollar gerade gesagt hat."
+FEW_SHOT_EXAMPLE = """Example 1:
+German sentence: "Die Ausbildung für Bergführer dauert drei Jahre und die technischen Fähigkeiten entsprechen den internationalen Standards"
 Expected output:
-	{
+    {
   "phrases": [
     {
-      "phrase": "Frau Präsidentin",
-      "gender": "F"
+      "phrase": "Bergführer",
+      "gender": „M“
+    }
+  ],
+  "label": "SINGLE-GENDERED"
+}"""
+
+#
+
+"""Example 2:
+German sentence: "Es wurden Stipendien für akademische Leistungen an Absolventinnen/Absolventen, die an internationalen Universitäten, Schulen oder technischen Ausbildungszentren teilnehmen, vergeben"
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "Absolventinnen/Absolventen",
+      "gender": "M&F"
     },
     {
-      "phrase": "ich",
+      "phrase": „die“,
+      "gender": "N"
+    }
+  ],
+  "label": "BINARY-GENDERED"
+}"""
+
+"""Example 3:
+German sentence: "Es wurden Stipendien für akademische Leistungen an AbsolventInnen, die an internationalen Universitäten, Schulen oder technischen Ausbildungszentren teilnehmen, vergeben"
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "AbsolventInnen",
+      "gender": "M&F"
+    },
+    {
+      "phrase": „die“,
+      "gender": "N"
+    }
+  ],
+  "label": "BINARY-GENDERED"
+}"""
+
+
+"""Example 4:
+German sentence: "Die Presseagentur sucht eine*n Journalist*in."
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "eine*n Journalist*in",
+      "gender": „N“
+    }
+  ],
+  "label": "NEUTRAL"
+}"""
+
+
+"""Example 5:
+German sentence: "Ab dem Schuljahr 2018/2019 werden die Überstunden für das provinziell beschäftigte Lehr- und Verwaltungspersonal im Bereich der Schulen elektronisch verwaltet."
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "Lehr- und Verwaltungspersonal",
+      "gender": „N“
+    }
+  ],
+  "label": "NEUTRAL"
+}"""
+
+
+#D) Mixed
+
+"""Example 6:
+German sentence: "Der Beauftragte oder die Beauftragte der Beschäftigten für die Sicherheit erhält auf deren Wunsch und zur Ausübung ihrer Funktion eine Kopie des Risiko-Bewertungsdokuments in Papier- oder Digitalform."
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "Der Beauftragte oder die Beauftragte",
+      "gender": „M&F“
+    },
+    {
+      "phrase": "der Beschäftigten",
+      "gender": „N“
+    }, 
+    {
+      "phrase": "deren“,
+      "gender": „N“
+    }, 
+    {
+      "phrase": „ihrer Funktion“,
+      "gender": „N“
+    }
+  ]
+  "label": "BINARY-GENDERED“
+}"""
+
+"""Example 7:
+German sentence: "Man arbeitet mit Patient:innen jeden Alters, deren Bewegungsfähigkeit und Funktion durch Traumata oder Erkrankungen beeinträchtigt wurden.“
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "Man",
+      "gender": „M“
+    },
+    {
+      "phrase": „Patient:innen“,
       "gender": "N"
     },
     {
-      "phrase": "meine Kollegin Hernández Mollar",
-      "gender": "F"
+      "phrase": „deren“,
+      "gender": "N"
     }
   ],
-  "label": "GENDERED"
+  "label": "SINGLE-GENDERED"
 }"""
+
+
+#E) incoherent WRONG!
+
+"""Example 8:
+German sentence: "Das Amt bestellt eine*n Tutor/in, die/der die Ansprechperson für diejenigen ist, die das Praktikum absolvieren."
+Expected output:
+    {
+  "phrases": [
+    {
+      "phrase": "eine*n",
+      "gender": „N“
+    },
+    {
+      "phrase": „Tutor/in“,
+      "gender": „M&F“
+    },
+    {
+      "phrase": „ die/der“,
+      "gender": „M&F“
+    },
+    {
+      "phrase": „die Ansprechperson“,
+      "gender": „N“
+    }, 
+    {
+      "phrase": „diejenigen“,
+      "gender": „N“
+    }, 
+    {
+      "phrase": „die“,
+      "gender": „N“
+    }
+  ],
+  "label": „BINARY-GENDERED“
+}"""
+
 
 
 
@@ -136,7 +288,7 @@ def load_translations(file_path):
     """Load translations from input file"""
     with open(file_path, 'r', encoding='utf-8') as f:
         lines = [line.strip() for line in f if line.strip()]
-    return lines[0:2]
+    return lines
 
 
 def create_messages(translation):
@@ -261,9 +413,6 @@ async def main():
         max_parallel=args.parallel
     )
     
-    # Calculate success rate
-    successful = sum(1 for r in results if r['success'])
-    print(f"\nSuccessfully evaluated: {successful}/{len(results)}")
     
     # Save results
     output_path = f"output_eval/{model_name}_eval.jsonl"
@@ -274,3 +423,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
+    
