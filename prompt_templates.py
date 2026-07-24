@@ -15,6 +15,7 @@ def get_prompt_template(source_name):
         function: Prompt creation function
     """
     templates = {
+        'bistro': create_bistro_prompt,
         'homonyms': create_homonyms_prompt,
         'simple_terms': create_simple_prompt,
         'abbreviations': create_abbreviation_prompt,
@@ -29,6 +30,44 @@ def get_prompt_template(source_name):
                         f"Available sources: {', '.join(templates.keys())}")
     
     return templates[source_name]
+
+
+def create_bistro_prompt(source_sentence, term_it, term_de):
+    """
+    Create prompt for homonyms dataset
+    
+    Args:
+        source_sentence (str): Italian sentence to translate
+        term_it (str): Italian term
+        term_de (str): German translation options
+        
+    Returns:
+        list: Prompt messages
+    """
+    prompt = [{
+        "role": "user",
+        "content": (
+        f"You are an Italian translator and this is a translation task. "
+        f"Task: Translate the following German legal sentence into Italian."
+        f"\n\nRequirements:"
+        f"\n- Preserve the exact legal meaning of the original text."
+        f"\n- Use formal legal Italian appropriate for a specialized legal audience."
+        f"\n- Do not simplify, paraphrase, summarize, or reinterpret the source text."
+        f"\n- Do not add explanations, notes, comments, or extra information."
+        f"\n- Respect the syntax and register typical of legal drafting where possible."
+        f"\n- You must output only the translated text without any explanation, "
+        f"enclosing it in angle brackets. "
+        f"\nImportant: There are terminological constraints you must adhere to: "
+        f"{term_de} must be translated with {term_it}. "
+
+        f"\n This is the sentence to translate into Italian: "
+        f"<{source_sentence}>"
+        )
+    }]
+
+
+    
+    return prompt
 
 
 def create_homonyms_prompt(source_sentence, term_it, term_de):
@@ -48,7 +87,7 @@ def create_homonyms_prompt(source_sentence, term_it, term_de):
         "content": (
             f"You are a German translator based in South-Tyrol and this is a translation task. "
             f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
-            f"South-Tyrolean German is a standard variety of German. "
+            f"South-Tyrolean German is a standard variety of German. Legal concepts are bound to the legal system they belong to, so you should use the terminology that is used in South-Tyrol. "
             f"There are terminological constraints you must adhere to: the term {term_it} can be translated with only one of these terms: {term_de}. "
             f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
             f"This is the text to be translated into German: "
@@ -83,7 +122,7 @@ def create_simple_prompt(source_sentence, term_it, term_de):
         "role": "user",
         "content": (
             f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
-            f"South-Tyrolean German is a standard variety of German. "
+            f"South-Tyrolean German is a standard variety of German. Legal concepts are bound to the legal system they belong to, so you should use the terminology that is valid in South-Tyrol. "
             f"There are terminological constraints you must adhere to: {term_it} must be translated with {term_de}. "
             f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
             f"This is the text to be translated into German: "
@@ -113,7 +152,7 @@ def create_abbreviation_prompt(source_sentence, term_it, term_de):
         "role": "user",
         "content": (
             f"You are tasked to translate a legal sentence from Italian into South-Tyrolean German. "
-            f"South-Tyrolean German is a standard variety of German. "
+            f"South-Tyrolean German is a standard variety of German. Legal concepts are bound to the legal system they belong to, so you should use the terminology that is valid in South-Tyrol.  "
             f"There are terminological constraints you must adhere to: the abbreviation {term_it} must be translated with {term_de}. "
             f"You must output only the translated text without any explanation, enclosing it in '<>' symbols. "
             f"This is the text to be translated into German: "

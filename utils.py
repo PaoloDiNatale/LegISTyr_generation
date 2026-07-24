@@ -40,9 +40,12 @@ def create_prompts(dataset, source_name):
     Returns:
         list: List of prompt dictionaries
     """
-    source_sentences = dataset["IT EXAMPLE"].tolist()
-    
-    if source_name != "gender":
+    if source_name == "bistro":
+        source_sentences = dataset["german_context"].tolist()
+    else:
+        source_sentences = dataset["IT EXAMPLE"].tolist()
+
+    if source_name != "gender" and source_name != "bistro":
         terms_it = dataset["IT TERM"].tolist()
     else:
         pass
@@ -50,6 +53,11 @@ def create_prompts(dataset, source_name):
     if source_name == "homonyms":
         terms_de = dataset["OPTIONS"].tolist()
         print(f"Sample terms_de: {terms_de[:3]}")
+
+    if source_name == "bistro":
+        terms_de = dataset["src_term"].tolist()
+        terms_it = dataset["tgt_term"].tolist()
+
     elif source_name == "simple_terms" or source_name == "abbreviations" or source_name == "German":
         terms_de = dataset["TARGET HYPOTHESIS (DE SOUTH TYROL)"].tolist()
     else:
@@ -172,6 +180,8 @@ def process_responses(results):
         
         try:
             data = r.json()
+
+            
             assistant = data["choices"][0]["message"]["content"]
             reasoning = data["choices"][0]["message"].get("reasoning")
             cost = data.get("usage", {}).get("cost_details", {}).get("upstream_inference_completions_cost")
