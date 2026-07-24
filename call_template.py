@@ -10,16 +10,15 @@ def get_payload(model, prompt, max_tokens, temperature):
     "top_p": 0.9,
     "no_repeat_ngram_size": 4,
     #"repetition_penalty": 1.2,
-    #"data_collection": "deny",
+    "data_collection": "deny",
     "messages": prompt,
     "usage": {
         "include": True
     },
     "reasoning": {
         "exclude": False,
-        #"effort": "low",
-        "max_tokens": 1400,
-        "enabled": True
+        "enabled": False,
+        "max_tokens": 0
     }
 }
     return payload

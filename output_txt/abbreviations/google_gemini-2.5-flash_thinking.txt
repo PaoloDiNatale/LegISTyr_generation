@@ -1,0 +1,295 @@
+<Der LASD ist der Berater des Arbeitgebers in Fragen des Arbeitsschutzes und der Arbeitssicherheit und wird vom Direktor der Personalabteilung ernannt.>
+<Der LASD ist eine vom Arbeitgeber ernannte Person und muss spezifische berufliche Voraussetzungen besitzen.>
+<Wer ist für die Ernennung des LASD zuständig?>
+<Der Arbeitgeber kann einen betriebsinternen LASD ernennen oder die Aufgabe einem externen LASD-Berater übertragen.>
+<Die Einrichtung des Präventions- und Schutzdienstes im Unternehmen sowie die Bestellung eines internen LASD ist nur in bestimmten Fällen verpflichtend.>
+<Der LASD ist der Berater des Arbeitgebers in Sachen Arbeitssicherheit und Gesundheitsschutz und wird vom Direktor des Personalressorts ernannt.>
+<Der LASD ist eine vom Arbeitgeber benannte Person und muss über spezifische berufliche Voraussetzungen verfügen.>
+<Wer ist für die Ernennung des LASD zuständig?>
+<Der Arbeitgeber kann einen betriebsinternen LASD bestellen oder die Aufgabe einem externen Berater übertragen.>
+<Die Einrichtung des Arbeitsschutzdienstes im Unternehmen sowie die Benennung eines internen LASD ist nur in bestimmten Fällen verpflichtend.>
+<Der LASD (Leiter des Dienstes für Arbeitssicherheit und Gesundheitsschutz) ist der Berater des Arbeitgebers in Fragen der Arbeitssicherheit und des Gesundheitsschutzes und wird vom Direktor der Personalabteilung ernannt.>
+<Der Leiter des Arbeitsschutzdienstes (LASD) ist eine vom Arbeitgeber ernannte Person und muss spezifische berufliche Voraussetzungen besitzen.>
+<Wer hat die Aufgabe, den LASD (Leiter des Arbeitsschutzdienstes) zu ernennen?>
+<Die Einrichtung des Dienstes für Prävention und Schutz innerhalb des Unternehmens, sowie die Ernennung eines internen Verantwortlichen für den Dienst für Prävention und Schutz (LASD), ist nur in bestimmten Fällen verpflichtend.>
+<Der Arbeitgeber kann einen LASD (Leiter des Arbeitsschutzdienstes) betriebsintern ernennen oder die Aufgabe einem externen Berater übertragen.>
+<Die aktualisierte Liste der den jeweiligen Arbeitgebern zugewiesenen RSPP ist auf der Webseite des Arbeitsschutzdienstes abrufbar.>
+<Auch im Falle der Organisation eines internen Arbeitsschutzdienstes kann der Arbeitgeber entscheiden, dessen Präventionstätigkeiten durch externe Berater zu unterstützen, die über die notwendigen Fachkenntnisse verfügen.>
+<Der Arbeitsschutzdienst ist die Gesamtheit der Personen, Systeme und Mittel, die innerhalb oder außerhalb des Unternehmens angesiedelt sind und der Tätigkeit der Prävention und des Schutzes vor Berufsrisiken für die Arbeitnehmer dienen.>
+<Der Arbeitgeber organisiert den Arbeitsschutzdienst, indem er die Beauftragten und Verantwortlichen des Dienstes, die die Voraussetzungen gemäß Art. 32 erfüllen, in einer den Bedürfnissen des Unternehmens angemessenen Anzahl ernennt.>
+<Es gibt Fälle, in denen es verpflichtend ist, dass der Arbeitsschutzdienst innerhalb des Unternehmens bzw. der Produktionseinheit eingerichtet wird.>
+<Die aktualisierte Liste der den jeweiligen Arbeitgebern zugewiesenen Sicherheitsbeauftragten ist auf der Webseite des Arbeitsschutzdienstes abrufbar.>
+<Auch im Falle der Einrichtung eines internen Arbeitsschutzdienstes kann der Arbeitgeber beschließen, dessen Präventionsaktivitäten durch externe Berater, die über die notwendigen Fachkenntnisse verfügen, zu unterstützen.>
+<Der Arbeitsschutzdienst umfasst Personen, Systeme und Mittel innerhalb oder außerhalb des Betriebs, die der Prävention und dem Schutz vor Berufsrisiken für die Arbeitnehmer dienen.>
+<Der Arbeitgeber organisiert den Arbeitsschutzdienst durch die Ernennung der Beauftragten und Verantwortlichen des Dienstes, die die Voraussetzungen gemäß Art. 32 erfüllen, in einer den Erfordernissen des Unternehmens angemessenen Anzahl.>
+<Es gibt Fälle, in denen der Arbeitsschutzdienst im Unternehmen bzw. in der Produktionseinheit verpflichtend eingerichtet sein muss.>
+<Die aktualisierte Liste der den jeweiligen Arbeitgebern zugeordneten Fachkräfte für Arbeitssicherheit (RSPP) ist auf der Webseite des Arbeitsschutzdienstes (Dienst für Prävention und Schutz) abrufbar.>
+<Auch bei der Organisation eines internen Arbeitsschutzdienstes kann der Arbeitgeber entscheiden, dessen Präventionstätigkeiten durch externe Berater mit den erforderlichen Fachkenntnissen zu unterstützen.>
+<Der Dienst für Prävention und Schutz (Arbeitsschutzdienst) ist die Gesamtheit von Personen, Systemen und Mitteln, die betriebsintern oder -extern sind und die der Vorbeugung und dem Schutz vor beruflichen Risiken für die Arbeitnehmer dienen.>
+<Der Arbeitgeber organisiert den Arbeitsschutzdienst, indem er die Beauftragten und Verantwortlichen des Dienstes, die die Voraussetzungen gemäß Art. 32 erfüllen, in einer den Bedürfnissen des Unternehmens angemessenen Anzahl ernennt.>
+<Es gibt Fälle, in denen es verpflichtend ist, dass der Arbeitsschutzdienst innerhalb des Unternehmens bzw. der Betriebseinheit eingerichtet wird.>
+<Der BASD, Beauftragter des Arbeitsschutzdienstes, ist ein Mitarbeiter des Arbeitgebers im Bereich des Arbeits- und Gesundheitsschutzes.>
+<Als BASD, Beauftragter des Arbeitsschutzdienstes, können Bedienstete ernannt werden, die über einen Bildungsabschluss verfügen, der nicht niedriger ist als das Diplom der Oberschule, und die die gesetzlich vorgesehene Ausbildung absolviert haben.>
+<Das Formular für den Ernennungsvorschlag und die tatsächliche Ernennung der BASD ist auf der Webseite des Präventions- und Schutzdienstes verfügbar.>
+<Der BASD ist eine Person, die hierarchisch dem RSPP unterstellt ist.>
+<Die Aufgaben des BASD in der Landesverwaltung und in den Schulen wurden von der Landesregierung festgelegt.>
+<Die BASD ist ein Mitarbeiter des Arbeitgebers in Angelegenheiten des Arbeits- und Gesundheitsschutzes.>
+<Zu BASD können Bedienstete ernannt werden, die über einen Bildungsabschluss verfügen, der mindestens einem Oberschulabschluss entspricht, und die die gesetzlich vorgeschriebene Ausbildung absolviert haben.>
+<Das Formular für den Ernennungsvorschlag und die effektive Ernennung der BASD ist auf der Webseite des Präventions- und Schutzdienstes verfügbar.>
+<Der BASD ist eine Funktion, die hierarchisch dem Leiter des Arbeitsschutzdienstes untersteht.>
+<Die Aufgaben des BASD in der Landesverwaltung und in den Schulen wurden von der Landesregierung festgelegt.>
+<PSA müssen eingesetzt werden, wenn die Risiken nicht durch technische Präventionsmaßnahmen, kollektive Schutzmaßnahmen, Maßnahmen, Methoden oder Verfahren der Arbeitsorganisation vermieden oder ausreichend reduziert werden können.>
+<Jeder Eingriff hat zur Folge, dass das PSA nicht mehr intakt ist und ersetzt werden muss.>
+<Im Falle mehrerer Risiken, die den gleichzeitigen Einsatz mehrerer PSA erfordern, müssen diese miteinander kompatibel sein und auch bei gleichzeitigem Einsatz ihre Wirksamkeit gegenüber dem Risiko und den entsprechenden Risiken beibehalten.>
+<Artikel 76 definiert die Anforderungen an die PSA, die den Vorschriften der Verordnung (EU) Nr. 2016/425 entsprechen müssen.>
+<Wenn der Hersteller die Gültigkeitsdauer im PSA nicht angibt, muss er diese in die Gebrauchsanweisung mit allen erforderlichen Informationen aufnehmen, um dem Käufer oder Verwender die Bestimmung von Monat und Jahr der angemessenen Gültigkeitsdauer zu ermöglichen.>
+<Die PSA müssen eingesetzt werden, wenn die Risiken nicht durch technische Präventionsmaßnahmen, kollektive Schutzmaßnahmen oder durch Maßnahmen, Methoden oder Verfahren der Arbeitsumorganisation vermieden oder ausreichend reduziert werden können.>
+<Jeder Eingriff hat zur Folge, dass das PSA nicht mehr intakt ist und ersetzt werden muss.>
+<Im Falle mehrerer Risiken, die die gleichzeitige Verwendung mehrerer PSA erfordern, müssen diese miteinander kompatibel sein und auch bei gleichzeitiger Verwendung ihre Wirksamkeit gegenüber dem Risiko und den entsprechenden Risiken beibehalten.>
+<Artikel 76 definiert die Anforderungen an die PSA, die den Vorschriften der Verordnung (EU) Nr. 2016/425 entsprechen müssen.>
+<Wenn der Hersteller das Ablaufdatum im PSA nicht angibt, muss er es in der Gebrauchsanweisung mit allen notwendigen Informationen anführen, um dem Käufer oder dem Benutzer die Bestimmung von Monat und Jahr eines angemessenen Ablaufdatums zu ermöglichen.>
+<Die PSA müssen eingesetzt werden, wenn die Risiken nicht durch technische Präventionsmaßnahmen, kollektive Schutzmaßnahmen oder durch Maßnahmen, Methoden oder Verfahren der Arbeitsumorganisation vermieden oder ausreichend reduziert werden können.>
+<Jeder Eingriff hat zur Folge, dass die PSA nicht mehr intakt ist und ersetzt werden muss.>
+<Im Falle mehrerer Risiken, die die gleichzeitige Verwendung mehrerer PSA erfordern, müssen diese miteinander kompatibel und so beschaffen sein, dass sie, auch bei gleichzeitiger Verwendung, ihre Wirksamkeit gegenüber den entsprechenden Risiken beibehalten.>
+<Artikel 76 definiert die Anforderungen an die PSA, die den Bestimmungen der Verordnung (EU) Nr. 2016/425 entsprechen müssen.>
+<Wenn der Hersteller das Verfallsdatum im PSA nicht angibt, muss er es in der Gebrauchsanweisung mit allen notwendigen Informationen aufnehmen, um dem Käufer oder Benutzer die Bestimmung des angemessenen Verfallsmonats und -jahres zu ermöglichen.>
+<Die Wahl oder die Ernennung des Sicherheitssprechers ist immer obligatorisch und zudem muss er über die notwendige Zeit, die notwendigen Mittel und die notwendigen Räumlichkeiten für die Wahrnehmung seiner Aufgaben verfügen.>
+<Der Sicherheitssprecher, also der Arbeitnehmervertreter für Arbeitssicherheit, muss ein Bezugspunkt für alle Arbeitnehmer sein.>
+<Der Sicherheitssprecher muss in jedem Unternehmen mit mindestens einem Arbeitnehmer vorhanden sein.>
+<In diesem letzten Fall können die Arbeitnehmer dennoch entscheiden, diese Vertretungen nicht in Anspruch zu nehmen und einen Sicherheitssprecher zu wählen, der von den Gewerkschaften unabhängig ist.>
+<Der Arbeitgeber und die Führungskräfte sind verpflichtet, die Sicherheitssprecher grundsätzlich im Rahmen aller Entscheidungen in Bezug auf Arbeitssicherheit und Gesundheitsschutz zu konsultieren.>
+<Die Wahl oder die Benennung des Sicherheitssprechers ist immer verpflichtend, und zudem muss er über die erforderliche Zeit, die erforderlichen Mittel und die erforderlichen Räumlichkeiten für die Ausübung seiner Aufgaben verfügen.>
+<Der Sicherheitssprecher, das heißt der Arbeitnehmervertreter für Arbeitssicherheit, muss eine Anlaufstelle für alle Arbeitnehmer sein.>
+<Der Sicherheitssprecher muss in jedem Unternehmen mit mindestens einem Arbeitnehmer vorhanden sein.>
+<In diesem letzten Fall können die Arbeitnehmer dennoch entscheiden, diese Vertretungen nicht in Anspruch zu nehmen und einen Sicherheitssprecher zu wählen, der von den Gewerkschaften unabhängig ist.>
+<Der Arbeitgeber und die Führungskräfte sind verpflichtet, die Sicherheitssprecher im Wesentlichen bei allen Entscheidungen bezüglich des Arbeits- und Gesundheitsschutzes zu konsultieren.>
+<Der DUVRI muss aktualisiert werden, sofern neue Risiken durch Interferenzen festgestellt werden.>
+<Die Pflicht zur Erstellung des DUVRI entsteht, wenn der Arbeitgeber eines Auftraggebers die Ausführung von Arbeiten oder Dienstleistungen innerhalb der eigenen Arbeitsstätte an ein Auftragnehmerunternehmen oder an Selbstständige vergibt.>
+<Es gibt Fälle, die im Einheitstext vorgesehen sind, in denen die Erstellung des DUVRI nicht verpflichtend ist.>
+<Im Gegensatz zum DVR ist der DUVRI kein betriebsbezogenes Dokument, sondern bezieht sich auf eine spezifische Tätigkeit, bei der zwei oder mehr unterschiedliche Unternehmen zusammenarbeiten.>
+<Die Vergabestelle behält sich die Möglichkeit vor, nach Bewertung der einzelnen vorgeschlagenen Änderungen einen neuen DUVRI zu erstellen.>
+<Der DUVRI muss aktualisiert werden, falls neue Interferenzrisiken festgestellt werden.>
+<Die Pflicht zur Erstellung des DUVRI entsteht, wenn der Arbeitgeber eines Auftraggeberunternehmens die Durchführung von Arbeiten oder Dienstleistungen innerhalb der eigenen Arbeitsstätte an ein Auftragnehmerunternehmen oder an selbstständige Erwerbstätige vergibt.>
+<Es gibt Fälle, die im Einheitstext vorgesehen sind, in denen die Erstellung des DUVRI nicht verpflichtend ist.>
+<Im Gegensatz zum DVR ist der DUVRI kein unternehmensbezogenes Dokument, sondern bezieht sich auf eine spezifische Tätigkeit, innerhalb derer zwei oder mehr verschiedene Unternehmen zusammenarbeiten.>
+<Die Vergabestelle behält sich nach Bewertung der einzelnen vorgeschlagenen Änderungen vor, einen neuen DUVRI auszuarbeiten.>
+<Das DUVRI muss aktualisiert werden, falls neue Interferenzrisiken festgestellt werden.>
+<Die Pflicht zur Erstellung des DUVRI entsteht, wenn der Arbeitgeber eines Auftraggebers die Ausführung von Arbeiten oder Dienstleistungen innerhalb des eigenen Arbeitsplatzes an ein Auftragnehmerunternehmen oder an selbstständige Arbeitskräfte vergibt.>
+<Es gibt Fälle, die im Einheitstext vorgesehen sind, in denen die Erstellung des DUVRI nicht verpflichtend ist.>
+<Im Gegensatz zum DVR ist der DUVRI kein unternehmensbezogenes Dokument, sondern an eine spezifische Tätigkeit gebunden, innerhalb derer zwei oder mehr verschiedene Unternehmen zusammenarbeiten.>
+<Die Vergabestelle behält sich die Möglichkeit vor, nach Bewertung der einzelnen vorgeschlagenen Änderungen, einen neuen DUVRI auszuarbeiten.>
+<Der DUVRI – Einheitliches Dokument zur Bewertung der Risiken durch Interferenzen – muss aktualisiert werden, falls neue Risiken durch Interferenzen festgestellt werden.>
+<Die Pflicht zur Erstellung des DUVRI (Einheitliches Dokument zur Bewertung der Interferenzrisiken) entsteht, wenn der Arbeitgeber eines Auftraggeberunternehmens die Durchführung von Arbeiten oder Dienstleistungen innerhalb des eigenen Arbeitsplatzes an ein Auftragnehmerunternehmen oder an selbstständige Arbeitskräfte vergibt.>
+<Es gibt Fälle, die im Einheitstext vorgesehen sind, in denen die Erstellung des Einheitlichen Dokuments zur Bewertung der Risiken aus Interferenzen (DUVRI) nicht verpflichtend ist.>
+<Im Gegensatz zum DVR ist das Einheitliche Dokument zur Bewertung von Interferenzrisiken (DUVRI) kein unternehmensbezogenes Dokument, sondern an eine spezifische Tätigkeit gebunden, innerhalb derer zwei oder mehr verschiedene Unternehmen zusammenarbeiten.>
+<Der Auftraggeber behält sich die Möglichkeit vor, nach Bewertung der einzelnen vorgeschlagenen Änderungen die Erstellung eines neuen DUVRI (Einheitliches Dokument zur Risikobewertung bei Interferenzen) vorzunehmen.>
+<Das Dokument der Risikobewertung ist ein vielseitiges und flexibles Dokument, das sich an die Merkmale des Unternehmens anpassen muss, sowohl hinsichtlich des Inhalts als auch der Häufigkeit der Überarbeitung.>
+<Der Zweck des Dokuments der Risikobewertung ist es, die Arbeitssicherheit zu gewährleisten, indem die Risiken identifiziert und die zu ergreifenden Sicherheitsmaßnahmen festgelegt werden, um Arbeitsunfälle und Berufskrankheiten zu verhüten und einzudämmen.>
+<Unternehmen, die keine Angestellten beschäftigen, wie Familienbetriebe und Freiberufler, sind von der Pflicht zur Erstellung des Dokuments der Risikobewertung ausgenommen.>
+<Im Falle eines unvollständigen oder mangelhaften Dokuments der Risikobewertung können die Sanktionen bis zu 4.384,00 € betragen.>
+<Die Risikobewertung und die anschließende Erstellung des Dokuments der Risikobewertung ist eine der Hauptpflichten jedes Arbeitgebers.>
+<Das Dokument der Risikobewertung ist ein vielseitiges und flexibles Dokument, das sich an die Merkmale des Unternehmens anpassen muss, sowohl hinsichtlich der Inhalte als auch der Periodizität der Revision.>
+<Der Zweck des Dokuments der Risikobewertung ist es, die Arbeitssicherheit zu gewährleisten, indem Risiken identifiziert und die zu ergreifenden Sicherheitsmaßnahmen festgelegt werden, um Arbeitsunfälle und Berufskrankheiten zu verhindern und einzudämmen.>
+<Unternehmen, die keine Angestellten haben, wie Familienbetriebe und Freiberufler, sind von der Pflicht zur Erstellung des Dokuments der Risikobewertung befreit.>
+<Im Falle eines unvollständigen oder mangelhaften Dokuments der Risikobewertung können die Sanktionen bis zu 4.384,00 Euro betragen.>
+<Die Risikobewertung und die anschließende Erstellung des Dokuments der Risikobewertung ist eine der Hauptpflichten jedes Arbeitgebers.>
+<Dieser Beschluss wird im Amtsblatt der Region Trentino-Südtirol gemäß Art. 28 des Landesgesetzes vom 22. Oktober 1993, Nr. 17 i.g.F. veröffentlicht, da es sich um einen Akt handelt, der die Allgemeinheit betrifft.>
+<Im Falle von Widerruf, Verfall oder Verzicht gemäß Art. 7 des L.G. Nr. 16/85 und i.g.F. werden Zeitpunkt und Art und Weise der Einstellung der Dienste mit eigenem Beschluss des Landesrates festgelegt.>
+<Der Beschluss sieht die Aussetzung der Verhängung der Verwaltungsstrafe gemäß Artikel 36/bis Absatz 2 des Landesgesetzes Nr. 7/2001 in der Fassung des Beschlusses der Landesregierung vom 3. Juli 2018, Nr. 657 und i.g.F. vor.>
+<Artikel 2, Absatz 2 des Landesgesetzes Nr. 16/2015 und i.g.F. bestimmt die zur Nutzung der ACP-Rahmenabkommen verpflichteten oder berechtigten Körperschaften.>
+<Im Verhandlungsverfahren wird das beste Angebot gemäß Art. 33 des L.G. Nr. 16/2015 i.g.F. nach dem Kriterium des wirtschaftlich günstigsten Angebots ausgewählt.>
+<Auf Landesebene wurde eine Vereinfachung mit der Einfügung von Art. 27 Absatz 4-bis des L.G. Nr. 16/2015 i.g.F. eingeführt.>
+<Öffentlich förderfähig sind Ausbildungsprojekte zur Förderung der beruflichen Qualifizierung oder Umschulung für den Erwerb des Qualifikationsdiploms als Sozial- und Gesundheitsfachkraft gemäß Art. 20 des B.v.L. Nr. 1027/2018 i.g.F.>
+<Für die Verhandlungsverfahren für Bauleistungen, Lieferungen und Dienstleistungen gemäß Art. 17 und 26 des LG Nr. 16/2015 und i.g.F. können die Vergabestellen die Formeln zur Berechnung der Angebotsanomalie gemäß der vorliegenden Leitlinie nicht anwenden.>
+<Der Wert der Vergütung für diese Leistungen wird auf der Grundlage des Ministerialdekrets vom 17.06.2016 i.g.F. und des Beschlusses der Landesregierung Nr. 1308/2014 i.g.F. berechnet.>
+<Gemäß dem Gesetzesvertretenden Dekret Nr. 33/2013 i.g.F., in der Fassung des Gesetzesvertretenden Dekrets Nr. 97/2016 i.g.F., ist Transparenz als vollständige Zugänglichkeit der Daten und Dokumente zu verstehen, die von den öffentlichen Verwaltungen verwahrt werden.>
+<In Art. 13 ter, Absatz 7 des Dekrets sind die Bestimmungen für die Immobilieneinheiten zu Wohnzwecken enthalten, die Gegenstand einer Vermietung zu touristischen Zwecken sind.>
+<Art. 43, Absatz 4-bis verlängert die Frist für die Satzungsanpassungen.>
+<Art. 4 des GvD Nr. 117/2017 definiert die Einrichtung des Dritten Sektors als private Einrichtung, die ohne Gewinnabsicht zivile, solidarische und dem Gemeinwohl dienende Ziele verfolgt.>
+<Die Genehmigung zur Löschung der Bindung gemäß Art. 7 LG Nr. 1/78 bzw. gemäß Art. 79 LG Nr. 13/97 wird nach positivem Gutachten der Gemeinde vom Abteilungsdirektor erteilt.>
+<Wer im Einzelhandel Gegenstände aus Edelmetallen verkauft, hat ein Schild anzubringen, das in Ziffern, klar und gut sichtbar, die entsprechenden Feingehalte angibt (Art. 4 Abs. 6, DPR 150/02).>
+<In diesem Zusammenhang sehen Art. 55, 56 und 57 des Kodex des Dritten Sektors eine Maßnahme der Unterstützung und Integration zwischen Einrichtungen des Dritten Sektors und öffentlichen Verwaltungen vor.>
+<Die Modalitäten für die Ausübung aller Rechte durch die Betroffenen sind im Allgemeinen in Art. 11 und 12 der Verordnung festgelegt.>
+<Vom Konsortium wird eine öffentliche Ausschreibung für die Vergabe der Konzession für die Planung und Realisierung des Bauloses 2 gemäß Art. 180 und 183 Absatz 15 GvD Nr. 50/2016 veranstaltet.>
+<Ein Schutz gegen missbräuchliche Klauseln findet sich auch im Zivilgesetzbuch, das in Art. 1341 und 1342 die Wirksamkeit der allgemeinen Geschäftsbedingungen regelt.>
+<Der Code ist zu verwenden für nicht der Mehrwertsteuer unterliegende Umsätze mangels der Territorialitätsvoraussetzung gemäß Art. 7 bis 7-septies, DPR Nr. 633/72.>
+<Das GvD. Nr. 36 vom Jahr 2023 enthält eine detaillierte Regelung, die unter anderem die öffentlichen Aufträge betrifft.>
+<Anbei wird die Mitteilung der Präsidentin des Landesgerichts Bozen vom 24.01.2024 betreffend das GvD. vom 10. Oktober 2022, Nr. 149 übermittelt.>
+<Gemäß Art. 27 des GvD. Nr. 81/2008 sind ab dem 1. Oktober 2024 die Unternehmen und Freiberufler, die auf zeitlich begrenzten oder ortsveränderlichen Baustellen tätig sind, im Besitz einer Lizenz zu sein.>
+<Für den Abschluss des elektronischen Vertrags sind durch das GvD Nr. 70/2003 spezifische Informationspflichten vorgesehen, denen der Dienstleister nachkommen muss.>
+<Des Weiteren verpflichtet sich der Garant gegenüber dem Auftragnehmer, die Bürgschaft für die definitive Kaution gemäß Art. 75 des GvD. 163/06 auszustellen.>
+<Die INAIL-Versicherung ist für alle Arbeitgeber obligatorisch, die Arbeitnehmer und arbeitnehmerähnliche Beschäftigte in Tätigkeiten einsetzen, die das Gesetz als risikoreich einstuft.>
+<Mit der Zahlung des Beitrags durch den Arbeitgeber verpflichtet sich INAIL, dem Arbeitnehmer Geldbeträge sowohl im Falle einer vorübergehenden Arbeitsunfähigkeit als auch im Falle einer dauerhaften Invalidität zu zahlen.>
+<INAIL ist in den Bereichen Prävention von Arbeitsrisiken, Information, Schulung und Unterstützung in Bezug auf Arbeitssicherheit und Gesundheitsschutz tätig.>
+<Der INAIL-Jahresbericht wurde am 14. Oktober der Abgeordnetenkammer vorgelegt: 2023 wurden über 590.000 Arbeitsunfälle gemeldet.>
+<Am 16. Oktober 2023 haben INAIL und der Nationalrat der Psychologenkammer ein Einvernehmensprotokoll unterzeichnet, mit dem allgemeinen Ziel, die Bereitstellung psychologisch-psychotherapeutischer Unterstützungsmaßnahmen zugunsten ihrer Versicherten sicherzustellen.>
+<Die Inail-Versicherung ist obligatorisch für alle Arbeitgeber, die Arbeitnehmer und arbeitnehmerähnliche Personen in Tätigkeiten beschäftigen, die das Gesetz als risikoreich einstuft.>
+<Mit der Zahlung des Beitrags durch den Arbeitgeber verpflichtet sich Inail, dem Arbeitnehmer Geldbeträge sowohl bei vorübergehender Arbeitsunfähigkeit als auch bei dauerhafter Invalidität zu zahlen.>
+<Inail übt Tätigkeiten in den Bereichen Prävention von Arbeitsrisiken, Information, Schulung und Unterstützung in Bezug auf Arbeitssicherheit und Gesundheitsschutz aus.>
+<Am 14. Oktober wurde der Kammer der Jahresbericht von Inail vorgelegt: 2023 wurden über 590.000 Arbeitsunfälle gemeldet.>
+<Am 16. Oktober 2023 haben die Inail und der Nationale Rat des Psychologenordens ein Einvernehmensprotokoll mit dem allgemeinen Ziel unterzeichnet, die Bereitstellung von psychologisch-psychotherapeutischen Unterstützungsmaßnahmen zugunsten ihrer Versicherten sicherzustellen.>
+<Die INAIL-Versicherung ist für alle Arbeitgeber obligatorisch, die Arbeitnehmer und arbeitnehmerähnliche Beschäftigte in Tätigkeiten beschäftigen, die das Gesetz als gefährlich einstuft.>
+<Durch die Beitragszahlung des Arbeitgebers verpflichtet sich INAIL, dem Arbeitnehmer Geldbeträge zu zahlen, sowohl bei vorübergehender Arbeitsunfähigkeit als auch bei dauerhafter Invalidität.>
+<INAIL führt Tätigkeiten in den Bereichen Prävention von Arbeitsrisiken, Information, Schulung und Unterstützung in Bezug auf Arbeitssicherheit und Gesundheitsschutz durch.>
+<Am 14. Oktober wurde der Jahresbericht des INAIL der Abgeordnetenkammer vorgelegt: 2023 betrugen die gemeldeten Arbeitsunfälle über 590.000.>
+<Am 16. Oktober 2023 haben die INAIL und der Nationale Rat der Psychologenkammer ein Einvernehmensprotokoll unterzeichnet, mit dem übergeordneten Ziel, die Bereitstellung von psychologisch-psychotherapeutischen Unterstützungsleistungen zugunsten ihrer Versicherten zu gewährleisten.>
+<Art. 1 des DPR Nr. 361/2000 regelt das Verfahren für den Erwerb der Rechtspersönlichkeit.>
+<Der Unterfertigte ist sich der strafrechtlichen Sanktionen bewusst, die im Falle unwahrer Erklärungen, der Erstellung oder Verwendung falscher Urkunden vorgesehen sind, die in den Artikeln 75 und 76 des DPR 445 vom 28. Dezember 2000 angeführt sind.>
+<Art. 82 des DPR 115/2002 sieht vor, dass das Honorar und die dem Verteidiger zustehenden Auslagen von der Gerichtsbehörde mit Zahlungsdekret unter Beachtung der Berufsgebührenordnung festgesetzt werden.>
+<Der Kandidat erklärt, dass wahrheitswidrige Erklärungen gemäß Art. 76 des DPR 445/2000 strafrechtlich verfolgt werden.>
+<Die Symbole der Maßeinheiten sind genau gemäß DPR 802/82 zu schreiben, das heißt mit Kleinbuchstaben, ausgenommen jene, die von Eigennamen abgeleitet sind.>
+<Art. 1 des DPR Nr. 361/2000 regelt das Verfahren für den Erwerb der Rechtspersönlichkeit.>
+<Der Unterzeichnende ist sich der strafrechtlichen Sanktionen bewusst, die für den Fall unwahrer Erklärungen, der Erstellung oder Verwendung falscher Urkunden vorgesehen sind, auf die in den Artikeln 75 und 76 des DPR Nr. 445 vom 28. Dezember 2000 verwiesen wird.>
+<Art. 82 des DPR 115/2002 sieht vor, dass das Honorar und die Auslagen, die dem Rechtsbeistand zustehen, von der Justizbehörde mit Zahlungsbeschluss festgesetzt werden, unter Beachtung der Berufsgebührenordnung.>
+<Der Kandidat erklärt, Kenntnis davon zu haben, dass Falschangaben gemäß Art. 76 des DPR 445/2000 strafrechtlich verfolgt werden.>
+<Die Einheitenzeichen sind genau gemäß DPR 802/82 zu schreiben, und zwar mit Kleinbuchstaben, ausgenommen jene, die von Eigennamen abgeleitet sind.>
+<Art. 1 des D.P.R. Nr. 361/2000 regelt das Verfahren für den Erwerb der Rechtspersönlichkeit.>
+<Der Unterzeichnete ist sich der strafrechtlichen Sanktionen bewusst, die im Falle unwahrer Erklärungen, der Erstellung oder Verwendung falscher Urkunden vorgesehen sind, auf die in den Artikeln 75 und 76 des D.P.R. Nr. 445 vom 28. Dezember 2000 verwiesen wird.>
+<Art. 82 des D.P.R. 115/2002 bestimmt, dass das Honorar und die dem Verteidiger zustehenden Auslagen von der Justizbehörde mit Zahlungsbeschluss unter Beachtung des Berufstarifs festgesetzt werden.>
+<Der Kandidat erklärt, sich dessen bewusst zu sein, dass unwahre Erklärungen gemäß Artikel 76 des D.P.R. 445/2000 strafrechtlich verfolgt werden.>
+<Die Symbole der Maßeinheiten sind genau gemäß den Bestimmungen des D.P.R. 802/82 zu schreiben, das heißt mit einem Kleinbuchstaben, außer jenen, die von Eigennamen abgeleitet sind.>
+<Der Dienst ermöglicht die Überprüfung der monatlich von der NISF ausbezahlten Leistungen.>
+<Für die NISF Basilikata beträgt die Anzahl der zu besetzenden Stellen 11.>
+<Das NISF ist in zentrale, regionale und metropolitane Strukturen mit Aufgaben der Lenkung, Überwachung und Koordinierung gegliedert.>
+<Beim NISF besteht ein spezieller Garantiefonds zugunsten der Arbeitnehmer, die von ihrem Arbeitgeber nicht bezahlt wurden.>
+<Die Aktualisierung der Nummerierung der hinterlegten und archivierten Kollektivverträge und Kollektivvereinbarungen ist vorgesehen und in Zusammenarbeit mit dem NISF durchzuführen.>
+<Der Dienst ermöglicht die Überprüfung der Höhe der monatlich vom NISF ausgezahlten Leistungen.>
+<Für die NISF Lazio beträgt die Anzahl der zu besetzenden Stellen 11.>
+<Die NISF ist in zentrale, regionale und großstädtische Strukturen gegliedert, die Aufgaben der Steuerung, Überwachung und Koordinierung wahrnehmen.>
+<Beim NISF besteht ein spezieller Garantiefonds zugunsten der Arbeitnehmer, denen es nicht gelungen ist, sich vom Arbeitgeber bezahlen zu lassen.>
+<Die Aktualisierung der Nummerierung der hinterlegten und archivierten Kollektivverträge und Kollektivvereinbarungen ist vorgesehen und in Zusammenarbeit mit der NISF durchzuführen.>
+<Der Dienst ermöglicht die Überprüfung des Betrags der vom N.I.S.F. monatlich ausgezahlten Leistungen.>
+<Für das N.I.S.F. Latium beträgt die Anzahl der zu besetzenden Stellen 11.>
+<Das N.I.S.F. ist in zentrale, regionale und metropolitane Strukturen gegliedert, die Aufgaben der Steuerung, Überwachung und Koordination wahrnehmen.>
+<Beim N.I.S.F. besteht ein besonderer Garantiefonds zugunsten der Arbeitnehmer, die ihren Lohn vom Arbeitgeber nicht erhalten konnten.>
+<Es ist die Aktualisierung der Nummerierung der hinterlegten und archivierten Kollektivverträge und Kollektivvereinbarungen vorgesehen, die in Zusammenarbeit mit dem N.I.S.F. zu erfolgen hat.>
+<Der Dienst ermöglicht die Überprüfung des Betrags der vom Nationalen Institut für soziale Vorsorge N.I.S.F. jeden Monat ausgezahlten Leistungen.>
+<Für die NISF (Nationale Anstalt für soziale Vorsorge) Latium sind 11 Stellen zu besetzen.>
+<Das Nationale Institut für soziale Fürsorge (NISF) ist in zentrale, regionale und metropolitane Strukturen mit Aufgaben der Steuerung, Überwachung und Koordinierung gegliedert.>
+<Beim Nationalen Institut für Soziale Fürsorge (N.I.S.F.) besteht ein spezieller Garantiefonds zugunsten der Arbeitnehmer, die vom Arbeitgeber nicht bezahlt werden konnten.>
+<Es ist die Aktualisierung der Nummerierung der hinterlegten und archivierten Kollektivverträge und Kollektivvereinbarungen vorgesehen, die in Zusammenarbeit mit dem NISF (Nationales Institut für soziale Vorsorge) erfolgen soll.>
+<Das PRA ist ein öffentliches Register, das 1927 eingerichtet wurde.>
+<Für die Umschreibung eines Fahrzeugs muss man sich an das PRA oder an eine Kfz-Zulassungsagentur wenden.>
+<Die Löschung kann beim PRA in der Garibaldi-Straße Nr. 21/a beantragt werden.>
+<Die Dienstleistung besteht in der Bereitstellung von Daten, die aus dem PRA entnommen wurden und sich auf die darin registrierten Fahrzeuge beziehen.>
+<Wir informieren Sie, dass die PRA-Dienststelle in Modena von Montag bis Freitag ausschließlich nach Terminvereinbarung für den Publikumsverkehr geöffnet ist.>
+<Das PRA ist ein öffentliches Register, das 1927 eingerichtet wurde.>
+<Für eine Umschreibung muss man sich an das PRA oder an eine Kfz-Agentur wenden.>
+<Die Abmeldung kann beim PRA in der Garibaldistraße 21/a beantragt werden.>
+<Die Dienstleistung besteht in der Bereitstellung von Daten, die aus dem PRA entnommen sind und sich auf die darin registrierten Fahrzeuge beziehen.>
+<Es wird darauf hingewiesen, dass das PRA-Amt in Modena für den Parteienverkehr ausschließlich nach Terminvereinbarung von Montag bis Freitag geöffnet ist.>
+<Das Öffentliche Kraftfahrzeugregister (PRA) ist ein öffentliches Register, das 1927 eingerichtet wurde.>
+<Zur Durchführung eines Eigentümerwechsels muss man sich an das PRA oder an eine Kfz-Agentur wenden.>
+<Die Abmeldung kann beim PRA – Öffentliches Kraftfahrzeugregister in der Garibaldi-Straße Nr. 21/a beantragt werden.>
+<Der Dienst besteht in der Bereitstellung von Daten, die dem Öffentlichen Kraftfahrzeugregister (PRA) entnommen sind und sich auf die darin registrierten Fahrzeuge beziehen.>
+<Es wird mitgeteilt, dass das Amt des PRA (Öffentliches Kraftfahrzeugregister) in Modena nur vormittags von Montag bis Freitag für den Publikumsverkehr geöffnet ist.>
+<Zum Jahresende muss der Eingang der Eingangsrechnungen sorgfältig überwacht werden, um den Zeitpunkt zu bestimmen, an dem die MwSt. als Vorsteuer abgezogen werden kann.>
+<Der Preis des Produkts ist immer MwSt.-pflichtig.>
+<Am 17. November läuft die Frist für die Entrichtung der MwSt. für das dritte Quartal ab, und zwar für diejenigen, die die Pauschalregelung gemäß Gesetz Nr. 398/1991 angewendet haben.>
+<Die MwSt. ist gemäß den Bestimmungen des Wohnsitzstaates des Kunden anzuwenden.>
+<Die Gesamtkosten gemäß dem beiliegenden Kostenvoranschlag und der Kostenberechnung betragen 5.280,00 Euro, MwSt.-befreit.>
+<Zum Jahresende ist der Eingang der Einkaufsrechnungen sorgfältig zu überwachen, um festzustellen, wann die MwSt. als Vorsteuer abgezogen werden kann.>
+<Der Preis des Produkts unterliegt immer der MwSt.>
+<Am 17. November läuft die Frist für die Zahlung der MwSt. für das dritte Quartal ab, und zwar für jene Personen, die die Pauschalregelung des Gesetzes Nr. 398/1991 angewendet haben.>
+<Die MwSt. ist gemäß den Bestimmungen des Wohnsitzstaates des Kunden anzuwenden.>
+<Die Gesamtkosten gemäß dem beiliegenden Kostenvoranschlag und der Kostenberechnung betragen 5.280,00 Euro, MwSt.-befreit.>
+<Die DSGVO sieht verschiedene Instrumente zur Regelung von Datenübermittlungen aus der EU in ein Drittland vor.>
+<Die Europäische Verordnung (DSGVO 2016/679) sieht wichtige Grundsätze zum Datenschutz vor, wie den Schutz natürlicher Personen und anderer Rechtssubjekte sowie die Achtung der Verarbeitung personenbezogener Daten.>
+<Die DSGVO räumt dem Betroffenen die Ausübung verschiedener Rechte bezüglich der ihn betreffenden personenbezogenen Daten ein.>
+<Die DSGVO sieht vor, dass, sofern personenbezogene Daten für Zwecke der Direktwerbung verarbeitet werden, die betroffene Person jederzeit das Recht hat, der Verarbeitung zu widersprechen.>
+<Diese Datenschutzerklärung erfolgt gemäß Artikel 13 der DSGVO 2016/679.>
+<Die KG ist nach italienischem Recht eine Personengesellschaft, die sowohl gewerbliche als auch nichtgewerbliche Tätigkeiten ausüben kann.>
+<Die Firma muss den Namen mindestens eines Komplementärs und die Angabe enthalten, dass es sich um eine KG handelt.>
+<Abgesehen von einigen spezifischen Ausnahmen gelten die einschlägigen Bestimmungen des Zivilgesetzbuches auch für die OHG und die KG.>
+<Beim Share Deal erwirbt man die Beteiligung an einem Unternehmen, also zum Beispiel Anteile einer OHG, GmbH, AG oder einer KG.>
+<Eine KG ist eine Form von Personengesellschaft, die sich durch zwei Kategorien von Gesellschaftern auszeichnet: Komplementäre und Kommanditisten.>
+<Die Kommanditgesellschaft (KG) ist im italienischen Recht eine Personengesellschaft, die sowohl gewerbliche als auch nichtgewerbliche Tätigkeiten betreiben kann.>
+<Die Personengesellschaften gliedern sich in folgende Typen: einfache Gesellschaft (e.G.), Offene Handelsgesellschaft (o.H.G.) und Kommanditgesellschaft (KG).>
+<Abgesehen von einigen spezifischen Ausnahmen gelten die einschlägigen Bestimmungen des Zivilgesetzbuches auch für die OHG (offene Handelsgesellschaft) und für die KG (Kommanditgesellschaft).>
+<Die Kommanditgesellschaften (KG) sind eine besonders interessante Rechtsform für Unternehmensgründer in Italien.>
+<Eine KG, oder Kommanditgesellschaft, ist eine Form der Personengesellschaft, die sich durch das Vorhandensein von zwei Gesellschafterkategorien auszeichnet: die Komplementäre und die Kommanditisten.>
+<Es ist daher wichtig, beim Ausfüllen des Handelsregisterantrags immer die gültige PLZ anzugeben.>
+<Bitte geben Sie die PLZ des Rechtssitzes der antragstellenden Körperschaft an.>
+<Bei Korrespondenz, die an ein Postfach adressiert ist, ist die spezifische PLZ anzugeben, die dem Postamt zugeordnet ist, in dem sich das Postfach befindet.>
+<Die PLZ ist das System zur Codierung von Orten, das in Postanschriften auf italienischem Staatsgebiet verwendet wird.>
+<Im Kundenbereich sind alle Daten des Rechnungsempfängers einzugeben: Firmenname, Adresse, Gemeinde, PLZ, Provinz, Adresszusatz, Land, MwSt.-Nummer, Steuernummer, Kundennummer (intern), E-Mail-Adresse.>
+<Daher ist es wichtig, beim Ausfüllen des Handelsregisterantrags stets die gültige PLZ anzugeben.>
+<Bitte geben Sie die PLZ des Sitzes des antragstellenden Rechtsträgers an.>
+<Bei Postsendungen an ein Postfach muss die spezifische PLZ des Postamtes, dem das Postfach zugeordnet ist, angegeben werden.>
+<Die PLZ ist das Ortscodierungssystem, das in den Postanschriften auf italienischem Staatsgebiet verwendet wird.>
+<In der Rubrik Kunde sind alle kundenbezogenen Daten der Rechnung einzugeben: Firmenname, Adresse, Gemeinde, PLZ, Provinz, Adresszusatz, Land, MwSt.-Nummer, Steuernummer, Kundennummer (intern), E-Mail-Adresse.>
+<Der interne und externe Bewertungsprozess des Landesbildungs- und Ausbildungssystems wird durch das DLH vom 5. November 2012, Nr. 39, festgelegt.>
+<Hinsichtlich der Richtlinien für den Schulbau siehe DLH vom 23. Februar 2009, Nr. 10 und das Dekret des Landeshauptmanns vom 4. März 1996, Nr. 13.>
+<Das DLH vom 12.05.1999, Nr. 21, betrifft die Bezeichnung und die Zuständigkeiten der Landesämter.>
+<Art. 25-bis wurde nie von der Regierung angefochten und der Rekurs der Berufsverbände der Provinz Bozen gegen das DLH 11/2004 wurde vom Regionalen Verwaltungsgericht Bozen mit Urteil 113/2008 abgewiesen.>
+<Gemäß Art. 6 des DLH Nr. 17/2020 muss der neue Parkplatz mit einer wasserdurchlässigen Bodenbedeckung geplant werden und einen Bereich für nachhaltige Verkehrsmittel vorsehen.>
+<Das Verfahren der internen und externen Evaluierung des provinzialen Bildungs- und Ausbildungssystems wird durch das DLH vom 5. November 2012, Nr. 39, festgelegt.>
+<Bezüglich der Richtlinien für den Schulbau wird auf das DLH vom 23. Februar 2009, Nr. 10 sowie auf das Dekret des Landeshauptmanns vom 4. März 1996, Nr. 13 verwiesen.>
+<Das DLH vom 12.05.1999, Nr. 21, betrifft die Bezeichnung und die Zuständigkeiten der Landesämter.>
+<Art. 25-bis wurde von der Regierung nie angefochten und der Rekurs der Berufskammern der Provinz Bozen gegen das DLH 11/2004 wurde vom Regionalen Verwaltungsgericht Bozen mit Urteil 113/2008 abgewiesen.>
+<Gemäß Art. 6 des DLH Nr. 17/2020 muss der neue Parkplatz mit einer wasserdurchlässigen Bodenbedeckung geplant werden und einen Platz für nachhaltige Verkehrsmittel vorsehen.>
+<Die Veranstaltung, hauptsächlich für KMU konzipiert, wird die jüngsten Richtlinien der Europäischen Union im Bereich der Nachhaltigkeit und die Aspekte im Zusammenhang mit nachhaltigen Investitionen untersuchen.>
+<Die interessierten KMU haben den Förderantrag zunächst einzureichen.>
+<Es ist ein Beitrag von maximal 1.000 EUR zugunsten der KMU für die Eintragung von Marken, Mustern und Modellen vorgesehen.>
+<Der Leitfaden erläutert schrittweise, wie festgestellt wird, ob ein Unternehmen als KMU gilt.>
+<Für die Maßnahme 1 dürfen Forschungseinrichtungen nicht einzeln teilnehmen, sondern müssen mit mindestens einem KMU kooperieren.>
+<Die Veranstaltung, hauptsächlich für KMU konzipiert, wird die jüngsten Richtlinien der Europäischen Union im Bereich der Nachhaltigkeit und die Aspekte nachhaltiger Investitionen beleuchten.>
+<Die interessierten KMU müssen zunächst den Förderantrag einreichen.>
+<Es ist ein Beitrag zugunsten der KMU im Höchstwert von 1.000 EUR für die Eintragung von Marken, Mustern und Modellen vorgesehen.>
+<Der Leitfaden erklärt schrittweise, wie bestimmt werden kann, ob ein Unternehmen als KMU gilt.>
+<Für die Aktion 1 dürfen die Forschungseinrichtungen nicht einzeln teilnehmen, sondern müssen in Zusammenarbeit mit mindestens einem KMU stehen.>
+<Die Kategorie der Kleinstunternehmen, kleinen Unternehmen und mittleren Unternehmen (KMU) besteht aus Unternehmen, die weniger als 250 Personen beschäftigen.>
+<Die Veranstaltung, hauptsächlich für kleine und mittlere Unternehmen (KMU) konzipiert, wird die jüngsten Richtlinien der Europäischen Union im Bereich der Nachhaltigkeit und die Aspekte nachhaltiger Investitionen beleuchten.>
+<Die KMU (kleine und mittlere Unternehmen) bilden das Rückgrat der Wirtschaft Tirols und Südtirols.>
+<Als KMU, und zwar als Kleinstunternehmen, Kleinunternehmen und mittleres Unternehmen, gilt das Unternehmen, das nach Überprüfung seines Status als verbundenes, assoziiertes oder eigenständiges Unternehmen die in der Tabelle festgelegten Parameter erfüllt.>
+<Die Kategorie der Kleinstunternehmen, Kleinunternehmen und mittleren Unternehmen (zusammenfassend als KMU bezeichnet) besteht aus Unternehmen, die weniger als 250 Beschäftigte haben und einen Jahresumsatz von höchstens 50 Millionen Euro aufweisen.>
+<Die EFRE-Mittel sind dazu bestimmt, die bestehenden regionalen Disparitäten in der Europäischen Union zu reduzieren.>
+<Fast die Hälfte der EFRE-Mittel wurden bereits im Land Südtirol für den Zeitraum von 2021 bis 2027 aktiviert.>
+<Der EFRE ist einer der europäischen Struktur- und Investitionsfonds für die Umsetzung der regionalen Gemeinschaftspolitik.>
+<In der Autonomen Provinz Bozen-Südtirol werden die vom EFRE finanzierten Maßnahmen über vier thematische Achsen umgesetzt.>
+<Vom 16. Jänner bis zum 31. März können Vorschläge im Rahmen des EFRE eingereicht werden.>
+<Die EFRE-Mittel (Europäischer Fonds für regionale Entwicklung) dienen der Verringerung der bestehenden regionalen Ungleichgewichte in der Europäischen Union.>
+<Fast die Hälfte der EFRE-Mittel, des Europäischen Fonds für regionale Entwicklung, wurden bereits im Land Südtirol für den Zeitraum zwischen 2021 und 2017 abgerufen.>
+<Der Europäische Fonds für regionale Entwicklung, kurz EFRE, ist einer der Europäischen Struktur- und Investitionsfonds zur Umsetzung der regionalen Gemeinschaftspolitik.>
+<In der Autonomen Provinz Bozen – Südtirol werden die vom EFRE (Europäischer Fonds für regionale Entwicklung) finanzierten Maßnahmen über vier thematische Achsen umgesetzt.>
+<Vom 16. Jänner bis zum 31. März können Vorschläge im Rahmen des Europäischen Fonds für regionale Entwicklung (EFRE) eingereicht werden.>
+<Im Vortrag von RA Maria Messner, Präsidentin des Landesbeirats für Chancengleichheit, werden nützliche Informationen für eine bewusstere Entscheidung gegeben.>
+<Der Präsident erinnerte an die Kämpfe und Erfolge, die von der aktuellen Landesregierung unter dem Vorsitz von RA M. Rossi erzielt wurden.>
+<Die Rechtsberater der Verbraucherzentrale, geführt von RA Emanuele Boni und RA Oreste Bianchi, haben beantragt, dass die Sammelklage nach italienischem Recht behandelt wird.>
+<RA Baldini beschäftigt sich hauptsächlich mit Zivilrecht und insbesondere mit Immobilienrecht.>
+<RA Roberto Zanoni hat sein Studium an der Universität Bologna abgeschlossen und ist seit 2012 in die Rechtsanwaltskammer Bozen eingetragen.>
+<Das derzeit in Geltung stehende italienische ZGB stammt aus dem Jahr 1942.>
+<Gemäß Art. 1321 ZGB kann nur ein vermögensrechtliches Rechtsverhältnis den Inhalt des Vertrags bilden.>
+<Die Art. 1401 ff. des ZGB behandeln die Regelung des Vertrags für eine zu benennende Person.>
+<Die von der Gemeinde und den zuständigen Körperschaften errichteten Erschließungsanlagen können abweichend vom Grenzabstand errichtet werden, unbeschadet der Bestimmungen des ZGB und der übergeordneten Rechtsvorschriften, auch in Bezug auf den Gebäudeabstand.>
+<Der Kern der Bestimmungen des italienischen Privatrechts ist im ZGB von 1942 enthalten.>
+<Das derzeit in Kraft stehende italienische ZGB stammt aus dem Jahr 1942.>
+<Gemäß Art. 1321 des ZGB kann nur ein vermögensrechtliches Rechtsverhältnis den Inhalt des Vertrages bilden.>
+<Die Art. 1401 ff. des ZGB regeln die Bestimmungen des Vertrags zugunsten eines noch zu Benennenden.>
+<Die Bauwerke, die Erschließungsanlagen darstellen und von der Gemeinde sowie den zuständigen Körperschaften errichtet werden, können unter Abweichung vom Grenzabstand errichtet werden, unbeschadet der Bestimmungen des ZGB und der übergeordneten Rechtsvorschriften, auch in Bezug auf den Abstand zwischen Gebäuden.>
+<Der zentrale Kern der Normen des italienischen Privatrechts ist im ZGB von 1942 enthalten.>
+<Der Amtssachverständige wird vom Richter mittels Beschluss ernannt, und zwar in allen Fällen, in denen dieser es für zweckmäßig erachtet, sich für die Vornahme einzelner Akte oder für das gesamte Verfahren beiziehen zu lassen.>
+<Ein etwaiger Ablehnungsbeschluss des Antrags auf Ernennung des Amtssachverständigen muss ausreichend begründet werden.>
+<Ein Amtssachverständiger ist ein Hilfsorgan des Richters, dessen Aufgabe es ist, ihn bei der Entscheidungsfindung zu unterstützen, indem er etwaige technische Sachverhalte klärt.>
+<Stellt der Richter die Notwendigkeit fest, einen Sachverständigen für ein bestimmtes Fachgebiet hinzuzuziehen, wird er einen Amtssachverständigen bestellen.>
+<Obwohl bei den Gerichtsämtern die Praxis besteht, den Amtssachverständigen das Verhandlungsprotokoll, in dem er den Eid leistet und den Auftrag erhält, unterschreiben zu lassen, wird dies als nicht notwendig erachtet.>
+<Der Amtssachverständige wird vom Richter mit Beschluss in allen Fällen ernannt, in denen dieser es für zweckmäßig erachtet, sich zur Vornahme einzelner Handlungen oder für das gesamte Verfahren beiziehen zu lassen.>
+<Ein etwaiger Ablehnungsbeschluss des Antrags auf Ernennung des Amtssachverständigen muss ausreichend begründet werden.>
+<Ein Amtssachverständiger ist ein Gehilfe des Richters, dessen Aufgabe es ist, ihn bei der Entscheidungsfindung zu unterstützen, indem er technische Aspekte klärt.>
+<Stellt der Richter die Notwendigkeit fest, einen Sachverständigen eines bestimmten Fachgebiets hinzuzuziehen, wird er einen Amtssachverständigen ernennen.>
+<Obwohl bei den Gerichtsämtern die Praxis besteht, den Amtssachverständigen das Verhandlungsprotokoll unterschreiben zu lassen, in dem er den Eid leistet und den Auftrag erhält, wird dies als nicht notwendig erachtet.>
+<Die Figur des Richters für die Vorerhebungen wurde mit der aktuellen Strafprozessordnung eingeführt.>
+<Der Richter für die Vorerhebungen führt keine Vorermittlungen durch, sondern übt im Wesentlichen die Kontrolle über die Beweiserhebungstätigkeiten aus, um die Rechte derjenigen zu gewährleisten, gegen die diese Tätigkeit durchgeführt wird.>
+<Zu den wichtigsten Verfügungen, für die der Richter für die Vorerhebungen zuständig ist, gehört der Beschluss über die Verhängung von Sicherungsmaßnahmen auf Antrag oder Vorschlag der Staatsanwaltschaft.>
+<Der Richter für die Vorerhebungen übt eine Garantiefunktion und eine Kontrollfunktion aus.>
+<Bei den schwersten Straftaten ist vor dem eigentlichen Prozess, der als «Hauptverhandlung» bezeichnet wird, eine Vorverhandlung vor einem Richter für die Vorerhebungen vorgesehen.>
+<Der Richter für die Vorerhebungen wurde mit der aktuellen Strafprozessordnung eingeführt.>
+<Der Richter für die Vorerhebungen führt keine Vorermittlungen durch, sondern übt im Wesentlichen die Kontrolle über die Beweiserhebungsaktivitäten aus, zur Gewährleistung der Rechte derjenigen, gegenüber denen diese Tätigkeit durchgeführt wird.>
+<Zu den wichtigsten Maßnahmen, die in die Zuständigkeit des Richters für die Vorerhebungen fallen, gehört die Anordnung von Sicherungsmaßnahmen auf Antrag oder Vorschlag der Staatsanwaltschaft.>
+<Der Richter für die Vorerhebungen übt eine Garantiefunktion und eine Kontrollfunktion aus.>
+<Bei den schwersten Straftaten ist vor dem eigentlichen Prozess, der „Hauptverhandlung“ genannt wird, eine Vorverhandlung vor einem Richter für die Vorerhebungen vorgesehen.>
+<Der Richter für die Vorerhebungen wurde mit der aktuellen Strafprozessordnung eingeführt.>
+<Der Richter für die Vorerhebungen führt keine Vorermittlungen durch, sondern übt im Wesentlichen die Kontrolle über die Beweiserhebungstätigkeiten aus, um die Rechte derjenigen zu gewährleisten, gegenüber denen diese Tätigkeit vorgenommen wird.>
+<Zu den wichtigsten Maßnahmen, die in die Zuständigkeit des Richters für die Vorerhebungen fallen, gehört der Beschluss zur Anordnung von Sicherheitsmaßnahmen auf Antrag oder Vorschlag der Staatsanwaltschaft.>
+<Der Richter für die Vorerhebungen übt eine Garantiefunktion und eine Kontrollfunktion aus.>
+<Für die schwersten Straftaten ist vor dem eigentlichen Prozess, der als „Hauptverhandlung“ bezeichnet wird, eine Vorverhandlung vor einem Richter für die Vorerhebungen vorgesehen.>

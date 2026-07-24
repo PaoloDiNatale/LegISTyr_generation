@@ -39,7 +39,7 @@ def parse_arguments():
     parser.add_argument(
         '--max-tokens',
         type=int,
-        default=1200,
+        default=3200,
         help='Maximum tokens for completion (default: 1000)'
     )
     
